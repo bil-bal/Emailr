@@ -62,30 +62,6 @@ namespace EmailerUI.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string from {
-            get {
-                return ((string)(this["from"]));
-            }
-            set {
-                this["from"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string subject {
-            get {
-                return ((string)(this["subject"]));
-            }
-            set {
-                this["subject"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string companyLogo {
             get {
                 return ((string)(this["companyLogo"]));
@@ -97,25 +73,12 @@ namespace EmailerUI.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string year {
+        public global::EmailrLibrary.Models.EmailModel emailContent {
             get {
-                return ((string)(this["year"]));
+                return ((global::EmailrLibrary.Models.EmailModel)(this["emailContent"]));
             }
             set {
-                this["year"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string month {
-            get {
-                return ((string)(this["month"]));
-            }
-            set {
-                this["month"] = value;
+                this["emailContent"] = value;
             }
         }
     }

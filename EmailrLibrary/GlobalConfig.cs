@@ -9,7 +9,7 @@ namespace EmailrLibrary
 {
     public static class GlobalConfig
     {
-        public const string PeopleFile = "PeopleModels.csv";
+        public const string PersonFile = "PersonModels.csv";
         public const string TeamFile = "TeamModels.csv";
         public const string EmailFile = "";
 

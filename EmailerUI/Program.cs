@@ -20,7 +20,7 @@ namespace EmailerUI
 
             GlobalConfig.InitializeConnection(DatabaseType.textfile);
 
-            Application.Run(new EmailrModifyListForm());
+            Application.Run(new EmailrStartForm());
         }
     }
 }
