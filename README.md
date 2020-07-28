@@ -19,4 +19,5 @@ The subject will look like: `Payroll for 2020/7`
 There is an option to add an image to the email and use it inline as e.g. a company logo. 
 Just use `<img src="cid:companyLogo">` in the html body of the mail.
 
-The app uses a tls/ssl connection through the .Net.Mail.SmtpClient package.
+The app uses a tls/ssl connection through the .Net.Mail.SmtpClient package to send the mails.
+You need to provide the email address, the smtp server and the smtp port through the settings form.
