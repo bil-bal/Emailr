@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using EmailrLibrary;
 
-namespace EmailerUI
+namespace EmailrUI
 {
     static class Program
     {

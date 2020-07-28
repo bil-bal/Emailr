@@ -10,7 +10,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EmailerUI
+namespace EmailrUI
 {
     public partial class EmailrSettingsForm : Form
     {

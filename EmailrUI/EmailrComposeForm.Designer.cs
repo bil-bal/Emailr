@@ -1,4 +1,4 @@
-﻿namespace EmailerUI
+﻿namespace EmailrUI
 {
     partial class EmailrComposeForm
     {
@@ -136,8 +136,8 @@
             // composeEmailTextbox
             // 
             this.composeEmailTextbox.AcceptsTab = true;
-            this.composeEmailTextbox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.composeEmailTextbox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.composeEmailTextbox.Location = new System.Drawing.Point(12, 231);
             this.composeEmailTextbox.Name = "composeEmailTextbox";

@@ -1,4 +1,4 @@
-﻿namespace EmailerUI
+﻿namespace EmailrUI
 {
     partial class EmailrSettingsForm
     {
