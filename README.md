@@ -7,7 +7,7 @@ If no one is selected, the email will be sent to the whole list.
 You can add keywords in to the subject, the email content and the attachement filepath to give every mail a personal touch or attach personal files like payrolls.
 The keywords will be replaced by the data from the list and compose mail form.
 
-As an example, you can modify the filepaths in the form itself, or create dummy files containing the keywords in the format of the actual files (don't forget to change folder names too).
+As an example, you can modify the filepaths in the form itself, or create dummy files containing the keywords in the format of the actual files (don't forget to change folder names too) after selecting a path and clicking the `Edit Path` button.
 
 ![Imgur](https://i.imgur.com/vrAYlhc.png)
 
