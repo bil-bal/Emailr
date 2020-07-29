@@ -106,11 +106,12 @@ namespace EmailrLibrary.DataAccess
 
             int tIndex = teams.FindIndex(a => a.Id == tm.Id);
 
-            int pIndex = teams[tIndex].TeamMembers.FindIndex(a => a.Id == p.Id);
-
-            teams[tIndex].TeamMembers.RemoveAt(pIndex);
-
-            teams.SaveToTeamFile();
+            if (tIndex > 0)
+            {
+                int pIndex = teams[tIndex].TeamMembers.FindIndex(a => a.Id == p.Id);
+                teams[tIndex].TeamMembers.RemoveAt(pIndex);
+                teams.SaveToTeamFile();
+            }
         }
     }
 }

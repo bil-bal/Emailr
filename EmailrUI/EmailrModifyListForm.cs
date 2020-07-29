@@ -199,13 +199,17 @@ namespace EmailrUI
             }
             else
             {
-                if (employeeInTeamListbox.SelectedItem != null)
+                if (teamListbox.SelectedItem != null)
                 {
-                    PersonModel p = (PersonModel)employeeInTeamListbox.SelectedItem;
-                    GlobalConfig.Connection.RemoveTeamMemberFromList(p, (TeamModel)teamListbox.SelectedItem);
-                    EmailrStartForm.LoadLists();
-                    pm.Remove(p);
+                    if (employeeInTeamListbox.SelectedItem != null)
+                    {
+                        PersonModel p = (PersonModel)employeeInTeamListbox.SelectedItem;
+                        GlobalConfig.Connection.RemoveTeamMemberFromList(p, (TeamModel)teamListbox.SelectedItem);
+                        EmailrStartForm.LoadLists();
+                        pm.Remove(p);
+                    }
                 }
+                
             }
         }
 
@@ -226,6 +230,8 @@ namespace EmailrUI
 
                 logLabel.Text = "Team created.";
                 logLabel.ForeColor = Color.Green;
+
+                teamMemberList.Clear();
             }
         }
 
