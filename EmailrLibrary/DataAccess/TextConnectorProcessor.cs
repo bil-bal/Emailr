@@ -16,6 +16,7 @@ namespace EmailrLibrary.DataAccess
         public static string FullFilePath(this string fileName)
         {
             string cd = Directory.GetCurrentDirectory();
+
             return $@"{cd}\{fileName}";
         }
 
@@ -25,6 +26,7 @@ namespace EmailrLibrary.DataAccess
             {
                 return new List<string>();
             }
+
             return File.ReadAllLines(fileName).ToList();
         }
 
@@ -65,7 +67,6 @@ namespace EmailrLibrary.DataAccess
             {
                 output = output.Substring(0, output.Length - 1);
             }
-
 
             return output;
         }

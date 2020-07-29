@@ -18,10 +18,12 @@ namespace EmailrLibrary.Models
         public string Content { get; set; } = "";
         public List<string> Attachements { get; set; }
         public string Image { get; set; } = "";
+
         public EmailModel()
         {
 
         }
+
         public EmailModel(string year, string month, string from, string subject, string content, List<string> attachement, string img)
         {
             Year = year;

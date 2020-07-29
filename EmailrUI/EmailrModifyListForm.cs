@@ -62,6 +62,7 @@ namespace EmailrUI
                 logLabel.ForeColor = Color.Red;
                 return false;
             }
+
             return true;
         }
         private bool ValidateAddEmployee()
@@ -146,7 +147,6 @@ namespace EmailrUI
                 removeTeamList.Add(t);
                 pm.Clear();
             }
-
         }
 
         private void showTeamsCheckbox_CheckedChanged(object sender, EventArgs e)
@@ -209,7 +209,6 @@ namespace EmailrUI
                         pm.Remove(p);
                     }
                 }
-                
             }
         }
 

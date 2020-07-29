@@ -152,8 +152,6 @@ namespace EmailrUI
                 return;
             }
 
-            
-
             List<PersonModel> selectedEmployees = new List<PersonModel>();
 
             if (!sendToTeamsCheckbox.Checked)

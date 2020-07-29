@@ -24,6 +24,7 @@ namespace EmailrUI
             LoadSettings();
             WireUpLists();
         }
+
         public void WireUpLists()
         {
             if (Properties.Settings.Default.emailContent != null)
@@ -34,6 +35,7 @@ namespace EmailrUI
             {
                 filePaths = new BindingList<string>();
             }
+
             filePathsListbox.DataSource = filePaths;
         }
 
@@ -52,10 +54,10 @@ namespace EmailrUI
 
             replacementPanel.Visible = false;
 
-
             editTextbox.Visible = false;
             saveEditButton.Visible = false;
         }
+
         public void SaveEmail()
         {
             em = new EmailModel(yearTextbox.Text,
@@ -102,6 +104,7 @@ namespace EmailrUI
 
             return true;
         }
+
         private void saveEmailButton_Click(object sender, EventArgs e)
         {
             if (ValidateForm())
@@ -120,7 +123,6 @@ namespace EmailrUI
 
                 this.Close();
             }
-            
         }
 
         private void addPathsButton_Click(object sender, EventArgs e)
@@ -198,7 +200,6 @@ namespace EmailrUI
             {
                 replacementPanel.Show();
             }
-            
         }
 
         private void EmailrComposeForm_FormClosed(object sender, FormClosedEventArgs e)
