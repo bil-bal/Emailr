@@ -14,6 +14,7 @@ As an example, you can modify the filepaths in the form itself, or create dummy 
 ![Imgur](https://i.imgur.com/ie7xCdG.png)
 
 After clicking the ✓ button, the edited path will be saved and modified for each person while sending.
+
 The subject will look like: `Payroll for 2020/7`
 
 There is an option to add an image to the email and use it inline as e.g. a company logo. 
